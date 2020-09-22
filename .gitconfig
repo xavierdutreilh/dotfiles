@@ -1,0 +1,6 @@
+[user]
+  name = Xavier Dutreilh
+  email = xavier@dutreilh.com
+
+[pull]
+  rebase = true
