@@ -5,6 +5,7 @@ call vundle#begin('~/.config/nvim/bundle')
 
 Plugin 'cespare/vim-toml'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'digitaltoad/vim-pug'
 Plugin 'dracula/vim'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'mxw/vim-jsx'
