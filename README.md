@@ -19,6 +19,7 @@ Run the following commands:
 #  brew cask install docker
 #  brew install curl git jq htop httpie neovim stow tig tree wget zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
+git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/plugins/zsh-nvm
 git clone https://github.com/dracula/zsh.git $HOME/.oh-my-zsh/themes/dracula
 ln -s $HOME/.oh-my-zsh/themes/dracula/dracula.zsh-theme $HOME/.oh-my-zsh/themes
 git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.config/nvim/bundle/Vundle.vim
