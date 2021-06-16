@@ -14,7 +14,7 @@ Run the following commands:
 #  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 #  sudo apt update
 #  sudo apt -y install docker-ce docker-ce-cli containerd.io
-#  sudo apt -y install docker-compose git jq htop httpie neovim stow tig tree wget zsh
+#  sudo apt -y install git jq htop httpie neovim stow tig tree wget zsh
 # on macos:
 #  brew cask install docker
 #  brew install curl git jq htop httpie neovim stow tig tree wget zsh
