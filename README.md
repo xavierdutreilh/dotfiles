@@ -12,12 +12,14 @@ Run the following commands:
 #  sudo apt -y install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 #  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 #  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+#  curl -fsSL https://baltocdn.com/helm/signing.asc | sudo apt-key add -
+#  sudo add-apt-repository "deb [arch=amd64] https://baltocdn.com/helm/stable/debian all main"
 #  sudo apt update
 #  sudo apt -y install docker-ce docker-ce-cli containerd.io
-#  sudo apt -y install git jq htop httpie neovim stow tig tree wget zsh
+#  sudo apt -y install git jq helm htop httpie neovim stow tig tree wget zsh
 # on macos:
 #  brew cask install docker
-#  brew install curl git jq htop httpie neovim stow tig tree wget zsh
+#  brew install curl git jq helm htop httpie neovim stow tig tree wget zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
 git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/plugins/zsh-nvm
 git clone https://github.com/dracula/zsh.git $HOME/.oh-my-zsh/themes/dracula
