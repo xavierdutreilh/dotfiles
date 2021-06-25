@@ -4,4 +4,8 @@ ZSH_THEME="dracula"
 
 plugins=(docker git helm kubectl nvm zsh-nvm)
 
+if [ "$(uname -s)" = "Darwin" ]; then
+  plugins+=(brew)
+fi
+
 source $ZSH/oh-my-zsh.sh
