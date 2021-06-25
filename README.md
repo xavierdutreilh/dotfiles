@@ -16,10 +16,10 @@ Run the following commands:
 #  sudo add-apt-repository "deb [arch=amd64] https://baltocdn.com/helm/stable/debian all main"
 #  sudo apt update
 #  sudo apt -y install docker-ce docker-ce-cli containerd.io
-#  sudo apt -y install git jq helm htop httpie neovim stow tig tree wget zsh
+#  sudo apt -y install git jq helm htop httpie neovim stow tig tmux tree wget zsh
 # on macos:
 #  brew cask install docker
-#  brew install curl git jq helm htop httpie neovim stow tig tree wget zsh
+#  brew install curl git jq helm htop httpie neovim stow tig tmux tree wget zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
 git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/plugins/zsh-nvm
 git clone https://github.com/dracula/zsh.git $HOME/.oh-my-zsh/themes/dracula
