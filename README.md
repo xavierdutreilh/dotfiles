@@ -12,7 +12,6 @@ Run the following commands:
 #  sudo apt -y install ca-certificates curl gnupg lsb-release
 #  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker.gpg
 #  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-#  curl -fsSL https://baltocdn.com/helm/signing.asc | sudo apt-key add -
 #  sudo apt update
 #  sudo apt -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 #  sudo snap install helm kubectl --classic
