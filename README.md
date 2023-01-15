@@ -13,10 +13,10 @@ Run the following commands:
 #  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker.gpg
 #  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 #  curl -fsSL https://baltocdn.com/helm/signing.asc | sudo apt-key add -
-#  sudo add-apt-repository "deb [arch=amd64] https://baltocdn.com/helm/stable/debian all main"
 #  sudo apt update
 #  sudo apt -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-#  sudo apt -y install git jq helm htop httpie neovim stow tig tmux tree wget zsh
+#  sudo snap install helm --classic
+#  sudo apt -y install git jq htop httpie neovim stow tig tmux tree wget zsh
 # on macos:
 #  brew cask install docker
 #  brew install curl git jq helm htop httpie neovim stow tig tmux tree wget zsh
