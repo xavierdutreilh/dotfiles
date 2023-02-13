@@ -14,7 +14,8 @@ Run the following commands:
 #  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 #  sudo apt update
 #  sudo apt -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-#  sudo snap install helm kubectl --classic
+#  sudo snap install kubectl --classic
+#  sudo snap install helm --classic
 #  sudo apt -y install git jq htop httpie neovim stow tig tmux tree wget zsh
 # on macos:
 #  brew cask install docker
